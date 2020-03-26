@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/images">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#83000000"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/courgette"
+            android:text="Wedding Date "
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="180dp"
+            android:layout_height="2dp"
+            android:background="#ffffff"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/courgette"
+            android:text="Monday 20th April 2020 "
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/courgette"
+            android:text="from 5:00 pm onwards"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/courgette"
+            android:text="Venue  "
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="180dp"
+            android:layout_height="2dp"
+            android:background="#ffffff"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/courgette"
+            android:text="Siddhi Vinayak Vatika "
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/courgette"
+            android:text="Amanganj, Madhya Pradesh 488441"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:id="@+id/map_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/googleMap"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            app:civ_border_width="2dp"-->
+<!--            app:civ_border_color="#fff"-->
+<!--            android:src="@drawable/ic_place_black_24dp"/>-->
+
+            <ImageView
+                android:id="@+id/googleMap"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/google_map"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:src="@drawable/white_up_arrow"
+                android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/courgette"
+            android:text="Get Direction"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="Nearby Airport"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="2dp"
+                    android:background="#ffffff"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="Jabalpur "
+                    android:layout_marginRight="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="Khajuraho "
+                    android:layout_marginRight="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="Nearby Station "
+                    android:layout_marginRight="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="180dp"
+                    android:layout_height="2dp"
+                    android:background="#ffffff"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="Katni "
+                    android:layout_marginRight="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="Khajuraho "
+                    android:layout_marginRight="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/courgette"
+            android:text="Contact  "
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="180dp"
+            android:layout_height="2dp"
+            android:background="#ffffff"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+        <TextView
+            android:id="@+id/father_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/courgette"
+            android:text="Ramswaroop Chhirolya - 9893219636  "
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/phone_call"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/brother_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/courgette"
+            android:text="Ravi Chhirolya - 9993149165  "
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/phone_call"
+            android:layout_marginLeft="65dp"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/own_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/courgette"
+           android:layout_marginTop="5dp"
+            android:text="Rahul Chhirolya - 9009133091  "
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="normal"
+           />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/phone_call"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

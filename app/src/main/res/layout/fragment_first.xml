@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgr"
+    tools:context=".activity.activity.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/speaker"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                android:src="@drawable/speak" />
+
+
+            <ImageView
+                android:id="@+id/speaker_mute"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:src="@drawable/muted_speak" />
+
+
+
+  <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8F201307"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:alpha="0.9"
+            >
+
+            <ImageView
+                android:id="@+id/namaste_image"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/gan" />
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/namasteText"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_below="@id/namaste_image"-->
+            <!--                android:layout_centerInParent="true"-->
+            <!--                android:fontFamily="@font/courgette"-->
+            <!--                android:text="Namaste "-->
+            <!--                android:textColor="#E40E0E"-->
+            <!--                android:textSize="20sp"-->
+            <!--                android:textStyle="bold" />-->
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/groom_image"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_below="@+id/namaste_image"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/rahul" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/groom_image"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/courgette"
+                android:text="Rahul "
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namaste_image"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/courgette"
+                android:text="Weds "
+                android:layout_marginTop="50dp"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/bride_image"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_below="@+id/namaste_image"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/shristi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bride_image"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="36dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/courgette"
+                android:layout_marginTop="5dp"
+                android:text="Shristi "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            >
+
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:fontFamily="@font/courgette"-->
+            <!--                android:text="A life of sharing and caring. "-->
+            <!--                android:textColor="#E40E0E"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:gravity="center"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginRight="10dp"-->
+            <!--                android:textSize="16sp"-->
+            <!--                android:textStyle="normal"/>-->
+
+
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:fontFamily="@font/courgette"-->
+            <!--                android:text="an endless love of giving together. "-->
+            <!--                android:gravity="center"-->
+            <!--                android:textColor="#E40E0E"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginRight="10dp"-->
+            <!--                android:textSize="16sp"-->
+            <!--                android:textStyle="normal"/>-->
+            <!--                We expect your blessing more than anything on our wedding day.-->
+            <!--                Let us all enjoy the holy occasion with your sweet presence-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/courgette"
+                android:text="RAHUL "
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/courgette"
+                android:text="Son of - Mr and Mrs Ramswaroop Chhirolya "
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="1dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/courgette"
+                android:gravity="center"
+                android:text="and "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/courgette"
+                android:text="SHRISTI "
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/courgette"
+                android:text="Daughter of - Mrs Sandhya Seth "
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginTop="1dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/courgette"
+                android:text="together with our parents invite you to "
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/courgette"
+                android:text="share this Prosperous occasion of marriage. "
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16sp"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/courgette"
+                android:text="Save the date "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="2dp"
+                android:background="#fff"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/courgette"
+                android:text="20th April 2020 "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/courgette"
+                android:text="Monday "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hindi_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/courgette"
+                android:text="एक शाम हमारे नाम "
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mehandi_function"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AB000000"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:alpha="0.9"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/mehandi_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/wedding_mehandi" />
+
+            <TextView
+                android:id="@+id/namasteText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namaste_image"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/courgette"
+                android:text="Mehandi "
+                android:textColor="#fff"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/groom_image"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/courgette"
+                android:text="Saturday 18th April 2020 "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:alpha="0.9"
+           >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/sangeet_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sangeet" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namaste_image"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/courgette"
+                android:text="Ladies Sangeet "
+                android:textColor="#fff"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="170dp"
+                android:layout_height="3dp"
+                android:background="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/groom_image"
+                android:layout_gravity="center"
+                android:fontFamily="@font/courgette"
+                android:text="Sunday 19th April 2020 "
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/courgette"
+                android:text="Venue "
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="170dp"
+                android:layout_height="3dp"
+                android:background="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/courgette"
+                android:text="Siddhi Vinayak Vatika "
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:alpha="0.9"-->
+<!--          -->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/familyAlbumLayout"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:layout_marginBottom="30dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                    android:id="@+id/myfamily"-->
+<!--                    android:layout_width="98dp"-->
+<!--                    android:layout_height="98dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    app:civ_border_width="2dp"-->
+<!--                    android:src="@drawable/family" />-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="20dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:src="@drawable/ic_arrow_upward_black_24dp"-->
+<!--                    android:layout_gravity="center"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:fontFamily="@font/courgette"-->
+<!--                    android:text="Click Me"-->
+<!--                    android:textColor="#000"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:textStyle="normal" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:fontFamily="@font/courgette"-->
+<!--                    android:text="Saw Family Album"-->
+<!--                    android:textColor="#000"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="normal" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/myAlbumLayout"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:layout_marginBottom="30dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                    android:id="@+id/prewedding"-->
+<!--                    android:layout_width="98dp"-->
+<!--                    android:layout_height="98dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    app:civ_border_width="2dp"-->
+<!--                    />-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="20dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:layout_gravity="center"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:fontFamily="@font/courgette"-->
+<!--                    android:text="Click Me"-->
+<!--                    android:textColor="#000"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:textStyle="normal" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:fontFamily="@font/courgette"-->
+<!--                    android:text="Our Lovely Moment"-->
+<!--                    android:textColor="#000"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="normal" />-->
+
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+</FrameLayout>
